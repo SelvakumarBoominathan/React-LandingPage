@@ -2,9 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import './Details.css'
+import './Details.css';
 
 const Details = (props) => {
   return (
@@ -12,13 +11,12 @@ const Details = (props) => {
       <Container>
         <Row>
           <Col>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+            <Card style={{ width: '20rem' }}>
+              <Card.Img variant="top" src={props.image1} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>{props.title1}</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  {props.Descrip1}
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -28,13 +26,12 @@ const Details = (props) => {
 
 
           <Col>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+            <Card style={{ width: '20rem' }}>
+              <Card.Img variant="top" src={props.image2} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>{props.title2}</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  {props.Descrip2}
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -42,13 +39,12 @@ const Details = (props) => {
 
 
           <Col>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+            <Card style={{ width: '20rem' }}>
+              <Card.Img variant="top" src={props.image3} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>{props.title3}</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  {props.Descrip3}
                 </Card.Text>
               </Card.Body>
             </Card>
