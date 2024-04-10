@@ -36,7 +36,6 @@ let details_bottom = {
   Descrip1: "Passionate about nurturing talent and guiding students towards success.",
   Descrip2: "Committed to fostering a supportive learning environment and empowering students to achieve their goals.",
   Descrip3: "Dedicated to providing personalized mentorship and helping students unleash their full potential."
-
 }
 
 function App() {
