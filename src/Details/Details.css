@@ -2,6 +2,7 @@
   display: grid;
   place-items: center;
   height: 100%;
+  width: 270px;
 }
 
 .card {
@@ -9,10 +10,36 @@
   place-items: center;
   margin: 0 auto;
   text-align: center;
-  border: none;
   border-width: 0;
+  height: 100%;
 }
 
 .card>img {
-  width: 100px;
+  width: 80px;
+  margin: 10px 0 10px 0;
+}
+
+.card-text {
+  color: black;
+  font-size: smaller;
+  font-weight: lighter;
+  margin: 25px;
+}
+
+.Col1.col {
+  padding: 0;
+}
+
+.col-sm {
+  min-height: 220px;
+
+}
+
+.border-0 {
+  border: none;
+}
+
+h3 {
+  margin: 0 auto;
+  color: black;
 }

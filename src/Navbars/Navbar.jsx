@@ -10,7 +10,7 @@ const Navb = () => {
     <>
       <Navbar className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">React Landing Page</Navbar.Brand>
+          <Navbar.Brand href="#home"><h3 style={{ color: '#003049457b9d', fontFamily: 'unset' }}>Doodle Institute</h3></Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Button variant="primary">Sign up</Button>{' '}
