@@ -1,0 +1,29 @@
+.image-container {
+  width: 250px;
+  height: 150px;
+}
+
+.Col>p {
+  color: black;
+}
+
+.container {
+  min-width: 100%;
+}
+
+.p-Tag {
+  color: black;
+  font-size: smaller;
+  font-weight: lighter;
+  padding: 0 40px 0 40px;
+}
+
+
+.Column {
+  /* margin: 0 auto;
+  text-align: center;
+  justify-content: center; */
+  display: grid;
+  place-items: center;
+  min-height: 260px;
+}

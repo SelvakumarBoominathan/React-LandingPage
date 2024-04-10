@@ -5,6 +5,11 @@
   width: 270px;
 }
 
+.parent-container.container {
+  margin: 0;
+  min-width: 100%;
+}
+
 .card {
   display: grid;
   place-items: center;
@@ -15,7 +20,7 @@
 }
 
 .card>img {
-  width: 80px;
+  width: 70px;
   margin: 10px 0 10px 0;
 }
 
@@ -42,4 +47,9 @@
 h3 {
   margin: 0 auto;
   color: black;
+}
+
+
+@media screen {
+  
 }

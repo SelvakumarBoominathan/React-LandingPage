@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbars/Navbar.jsx';
 import Body from './Body/Body.jsx';
 import Details from './Details/Details.jsx';
+import Profile from './Profile/Profile.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -38,6 +39,34 @@ let details_bottom = {
   Descrip3: "Dedicated to providing personalized mentorship and helping students unleash their full potential."
 }
 
+const Array = [
+
+  {
+    title: "Fully Responsive Design",
+    description: "When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!"
+  },
+  {
+    image: "https://images.alphacoders.com/133/1331849.png",
+  },
+  {
+    image: "https://images7.alphacoders.com/122/1228014.png",
+
+  },
+  {
+    title: "Updated For Bootstrap 5",
+    description: "Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!"
+  },
+  {
+    title: "Easy to Use & Customize",
+    description: "Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!"
+  },
+  {
+    image: "https://images7.alphacoders.com/133/1337390.png",
+
+  },
+
+]
+
 function App() {
 
   return (
@@ -45,6 +74,7 @@ function App() {
       <Navbar />
       <Body Description={topDescription} />
       <Details {...detailsObj} />
+      <Profile {...Array} />
       <Details {...details_bottom} />
       <Body Description={bottomDescription} />
 

@@ -1,5 +1,5 @@
-/* .Container {
-  min-width: 100dvw;
+.Container {
+  min-width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -13,4 +13,4 @@
 
 Button {
   font-size: 2rem;
-} */
+}

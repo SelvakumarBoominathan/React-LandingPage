@@ -9,7 +9,7 @@ import Image from 'react-bootstrap/Image';
 
 const Details = (props) => {
   return (
-    <Container>
+    <Container className='parent-container'>
       <h3 style={{ textAlign: 'center' }}>{props.Head}</h3>
       <Row>
         <Col xs={6} md={4}>
