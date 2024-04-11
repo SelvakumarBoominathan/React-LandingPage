@@ -11,8 +11,8 @@ const Profile = (props) => {
       {Array.from({ length: 6 }).map((_, idx) => (
         <Col key={idx} className='Column'>
           <Card.Img variant="top" src={props[idx].image} style={{ backgroundImage: `url(${props[idx].image})` }} />
-          <h3>{props[idx].title}</h3>
-          <p className='p-Tag'>{props[idx].description}</p>
+          {props[idx].title && <h3>{props[idx].title}</h3>}
+          {props[idx].description && <p className='p-Tag'>{props[idx].description}</p>}
         </Col>
       ))}
     </Row>

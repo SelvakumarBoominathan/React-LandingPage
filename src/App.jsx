@@ -43,24 +43,33 @@ const Array = [
 
   {
     title: "Fully Responsive Design",
-    description: "When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!"
+    description: "When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!",
+    image: ""
   },
   {
+    title: "",
+    description: "",
     image: "https://images.alphacoders.com/133/1331849.png",
   },
   {
+    title: "",
+    description: "",
     image: "https://images7.alphacoders.com/122/1228014.png",
 
   },
   {
     title: "Updated For Bootstrap 5",
-    description: "Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!"
+    description: "Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!",
+    image: ""
   },
   {
     title: "Easy to Use & Customize",
-    description: "Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!"
+    description: "Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!",
+    image: ""
   },
   {
+    title: "",
+    description: "",
     image: "https://images7.alphacoders.com/133/1337390.png",
 
   },

@@ -14,3 +14,8 @@
 Button {
   font-size: 2rem;
 }
+
+/* .bubble-text {
+  font-size: clamp(2rem, calc(2rem + 3.5vw), 8rem);
+  color: hsl(101, 39%, 38%);
+} */

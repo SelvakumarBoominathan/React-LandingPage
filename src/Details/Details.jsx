@@ -11,7 +11,7 @@ const Details = (props) => {
   return (
     <Container className='parent-container'>
       <h3 style={{ textAlign: 'center' }}>{props.Head}</h3>
-      <Row>
+      <Row className='row-container'>
         <Col xs={6} md={4}>
           <Card className="border-0">
             <Image className='rounded-Image' variant="top" src={props.image1} roundedCircle />
