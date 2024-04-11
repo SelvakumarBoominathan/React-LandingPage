@@ -77,7 +77,6 @@ function App() {
       <Profile {...Array} />
       <Details {...details_bottom} />
       <Body Description={bottomDescription} />
-
     </>
   )
 }
