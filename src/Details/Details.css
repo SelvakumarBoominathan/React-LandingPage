@@ -3,11 +3,13 @@
   place-items: center;
   height: 100%;
   width: 270px;
+  padding: 0;
 }
 
 .parent-container.container {
   margin: 0;
   min-width: 100%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .card {
@@ -31,13 +33,16 @@
   margin: 25px;
 }
 
+.row-cols-1 {
+  padding: 0;
+}
+
 .Col1.col {
   padding: 0;
 }
 
 .col-sm {
   min-height: 220px;
-
 }
 
 .border-0 {

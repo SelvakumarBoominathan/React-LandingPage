@@ -1,0 +1,32 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.main-container {
+  height: 100px;
+  display: flex;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.L-div {
+  min-height: 100px;
+  min-width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+.anchor-tags {
+  font-size: x-small;
+  display: flex;
+  gap: 18px;
+  margin: 2rem 0 0 0;
+  padding: 0%;
+}
+
+.paragraph {
+  margin: 0%;
+  color: black;
+  font-size: xx-small;
+  margin: 1rem 0 2rem 0.75rem;
+}

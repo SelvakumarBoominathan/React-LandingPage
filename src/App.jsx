@@ -4,6 +4,7 @@ import Body from './Body/Body.jsx';
 import Details from './Details/Details.jsx';
 import Profile from './Profile/Profile.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Footer/Footer.jsx'
 import './App.css';
 
 
@@ -86,6 +87,7 @@ function App() {
       <Profile {...Array} />
       <Details {...details_bottom} />
       <Body Description={bottomDescription} />
+      <Footer />
     </>
   )
 }

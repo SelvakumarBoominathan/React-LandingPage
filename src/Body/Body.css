@@ -2,6 +2,7 @@
   height: 400px;
   min-width: 100dvw;
   margin: 0 auto;
+  padding: 0;
   background-image: url(https://images5.alphacoders.com/133/1338264.png);
   background-size: cover;
   background-position: center;
@@ -11,6 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .Container>form {
